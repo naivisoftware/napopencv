@@ -1,0 +1,26 @@
+{
+    "Type": "nap::ModuleInfo",
+    "mID": "ModuleInfo",
+    "RequiredModules": [
+        "napmath",
+        "napscene"
+    ],
+    "WindowsDllSearchPaths": [
+        "{ROOT}/modules/napopencv/thirdparty/opencv/msvc/{BUILD_ARCH}/x64/vc14/bin"
+    ],
+    "LibrarySearchPaths": {
+        "Linux": [
+            "{ROOT}/modules/napopencv/thirdparty/opencv/linux/{BUILD_ARCH}/lib",
+            "{ROOT}/system_modules/napvideo/thirdparty/ffmpeg/linux/{BUILD_ARCH}/lib"
+        ],
+        "macOS": [
+            "{ROOT}/modules/napopencv/thirdparty/opencv/macos/{BUILD_ARCH}/lib",
+            "{ROOT}/system_modules/napvideo/thirdparty/ffmpeg/macos/{BUILD_ARCH}/lib"
+        ],
+        "Windows": [
+            "{ROOT}/modules/napopencv/thirdparty/opencv/msvc/{BUILD_ARCH}/x64/vc14/bin"
+
+        ]
+    },
+    "DemoApp": "facedetection"
+}

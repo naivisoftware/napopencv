@@ -1,0 +1,3 @@
+After building:
+
+install_name_tool -add_rpath \@loader_path/../../../../../../../system_modules/napvideo/thirdparty/ffmpeg/macos/x86_64/lib libopencv_world.dylib
