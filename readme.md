@@ -34,7 +34,5 @@ The demo shows a set of detected (classified) objects in 3D and 2D.
 Objects are detected using an OpenCV `HaarCascade Classifier`. 
 The classified objects are rendered to texture and the viewport. This demo makes use of your first (default) Web-cam if present.
 
-<p align="center">
-  <img src="https://nap.tech/media/nap-tech/02-features/01-04-NAP-screen.jpg">
-</p>
+![](napopencv.webp)
 
