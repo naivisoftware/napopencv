@@ -35,7 +35,7 @@ if(WIN32)
                 $<TARGET_FILE_DIR:${PROJECT_NAME}>)
 
     # Copy FFmpeg for OpenCV
-    file(GLOB CV_FFMPEG_DLLS ${THIRDPARTY_DIR}/opencv/msvc/x64/vc14/bin/opencv_videoio_ffmpeg*${CMAKE_SHARED_LIBRARY_SUFFIX}*)
+    file(GLOB CV_FFMPEG_DLLS ${opencv_dir}/x64/vc16/bin/opencv_videoio_ffmpeg*${CMAKE_SHARED_LIBRARY_SUFFIX}*)
     copy_files_to_bin(${CV_FFMPEG_DLLS})
 endif()
 
