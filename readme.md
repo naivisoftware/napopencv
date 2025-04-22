@@ -12,7 +12,11 @@ Compatible with NAP 0.6 and higher - [package release](https://github.com/napfra
 
 ### Windows
 
-OpenCV contains binaries that are **>100mb**: Unzip `opencv_world4110d.zip` `in thirdparty\opencv\msvc\x86_64\x64\vc16\bin` before generating the solution.
+OpenCV contains binaries that are **>100mb**: 
+
+- Unzip `opencv_world4110d.zip` in `thirdparty\opencv\msvc\x86_64\x64\vc16\bin` 
+
+Before generating the solution.
 
 ### From ZIP
 
