@@ -10,6 +10,10 @@ Adds [OpenCV](https://opencv.org/) computer vision functionality to NAP
 ## Installation
 Compatible with NAP 0.6 and higher - [package release](https://github.com/napframework/nap/releases) and [source](https://github.com/napframework/nap) context. 
 
+### Windows
+
+OpenCV contains binaries that are **>100mb**: Unzip `opencv_world4110d.zip` `in thirdparty\opencv\msvc\x86_64\x64\vc16\bin` before generating the solution.
+
 ### From ZIP
 
 [Download](https://github.com/naivisoftware/napopencv/archive/refs/heads/main.zip) the module as .zip archive and install it into the nap `modules` directory:
